@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 export const useBalance = () => {
   const [balance, setBalance] = useState(() => {
     const savedBalance = localStorage.getItem('balance');
-    return savedBalance ? Number(savedBalance) : 465444;
+    return savedBalance ? Number(savedBalance) : 4700444;
   });
 
   useEffect(() => {
